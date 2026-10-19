@@ -1,0 +1,64 @@
+name: Fehler melden
+description: Etwas funktioniert nicht wie erwartet
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Danke fürs Melden! Je genauer die Angaben, desto schneller lässt sich der Fehler finden.
+        Bitte keine persönlichen Daten (Passwörter, Dateinamen privater Dateien o. Ä.) eintragen.
+  - type: textarea
+    id: was
+    attributes:
+      label: Was ist passiert?
+      description: Was hast du erwartet, was ist stattdessen passiert? Fehlermeldungen bitte wörtlich einfügen.
+    validations:
+      required: true
+  - type: textarea
+    id: schritte
+    attributes:
+      label: Wie lässt sich der Fehler nachstellen?
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+  - type: input
+    id: version
+    attributes:
+      label: Version von Michi's Umzugskiste
+      description: Steht oben im Titel des Startfensters.
+      placeholder: z. B. 1.0.0
+    validations:
+      required: true
+  - type: dropdown
+    id: windows
+    attributes:
+      label: Windows
+      options:
+        - Windows 11
+        - Windows 10
+        - Anderes
+    validations:
+      required: true
+  - type: dropdown
+    id: bereich
+    attributes:
+      label: Wobei?
+      options:
+        - Sichern
+        - Wiederherstellen
+        - Sicherung ansehen
+        - Browser-Passwörter
+        - Alte Daten vernichten
+        - Anderes
+  - type: textarea
+    id: log
+    attributes:
+      label: Fehlerprotokoll
+      description: Falls vorhanden, den Inhalt von %TEMP%\UmzugsKiste-Fehler.log hier einfügen.
+      render: text
+  - type: textarea
+    id: bilder
+    attributes:
+      label: Screenshots
+      description: Gern per Drag & Drop hier hineinziehen.
