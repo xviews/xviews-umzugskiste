@@ -89,8 +89,7 @@ Wer umzieht, packt Kisten. Beim PC ist das nicht anders, nur sieht man nicht, wa
 
 | Datei | Größe | Hinweis |
 |---|---|---|
-| [`Michis-Umzugskiste.exe`](https://github.com/xviews/xviews-umzugskiste/releases/latest/download/Michis-Umzugskiste.exe) | ca. 50 MB | läuft sofort, keine Installation, kein .NET nötig, empfohlen |
-| [`Michis-Umzugskiste-klein-benoetigt-dotnet10.exe`](https://github.com/xviews/xviews-umzugskiste/releases/latest/download/Michis-Umzugskiste-klein-benoetigt-dotnet10.exe) | unter 1 MB | braucht die [.NET 10 Desktop Runtime](https://dotnet.microsoft.com/download/dotnet/10.0), auch auf dem neuen PC |
+| [`Michis-Umzugskiste.exe`](https://github.com/xviews/xviews-umzugskiste/releases/latest/download/Michis-Umzugskiste.exe) | ca. 50 MB | läuft sofort, keine Installation, kein .NET nötig |
 
 **Voraussetzungen:** Windows 10 oder 11 (64 Bit). ➡️ Alle Versionen und Prüfsummen unter **[Releases](../../releases)**.
 
